@@ -1,0 +1,120 @@
+
+body{
+	background-color:#f8f6f6;;
+	}
+
+div{
+	float:left;
+}
+header{
+	height:120px;
+	width:100%;
+	position:fixed;
+	z-index:5;
+	background-color:#f8f6f6;
+}
+/*Comentário*/
+
+#logo img{
+	height:110px;
+}
+
+#nome{
+	margin:20px;
+	float:right;
+}
+
+
+nav{
+	background-color:#fff;
+	height:50px;
+	width:100%;
+	padding:1px;
+	margin-top:120px;
+	position:fixed;
+	z-index:8;
+}
+nav ul li{
+	list-style:none;
+	float:left;
+}
+nav ul li a{
+	text-decoration:none;
+	color:#333;
+	padding:15px;
+	font-size:18px;
+	font-family:Arial;
+}
+nav ul li a:hover{
+	background-color:#E0FFFF;
+	font-size:20px;
+	border-bottom:2px solid #4682B4;
+}
+nav ul li a:active{
+	background-color:red;
+}
+
+
+main{
+	min-height:300px;
+	width:70%;
+	float:left;
+	padding:20px;
+	margin-top:170px;
+	
+}
+
+
+ .imagem{
+ 	margin:10px;
+	width:30%;
+	position:relative;
+
+ }
+
+ .imagem img{
+	 border:2px solid #699;
+	 /*Bordas Arredondadas*/
+	 border-radius:50%;
+
+	 /*Efeito de sombra*/
+	 box-shadow: 10px 20px 30px #2E8B57;
+ }
+
+#img-a{
+	transform:rotate(20deg);
+}
+
+#img-b{
+	/*efeito de rotação pelo eixo y*/
+	transform:skewY(-20deg);
+	
+}
+#img-c{
+	/*efeito de rotação pelo eixo y*/
+	transform:skewX(20deg);
+}
+
+#img-d{
+	/*efeito scala*/
+	transform:scale(1.2);
+}
+#img-e{
+	/*transparencia*/
+	opacity:0.4;
+}
+aside{
+	min-height:300px;
+	width:25%;
+	float:left;
+	margin-top:170px;
+	background-image: linear-gradient(140deg,#4682B4,#699, #fff )
+}
+
+
+footer{
+	height:60px;
+	width:100%;
+	border:1px solid #333;
+	float:left;
+}
